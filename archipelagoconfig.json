@@ -1,0 +1,28 @@
+[
+  {
+    "DisplayName": "Archipelago File",
+    "Description": "Filename of the .archipelago multiworld file to load (e.g. MyGame.archipelago). Place the file in the server files directory first.",
+    "Category": "Archipelago Settings",
+    "Subcategory": "General",
+    "KeyName": "ArchipelagoFile",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "ArchipelagoFile",
+    "IncludeInCommandLine": true,
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Game Port",
+    "Description": "TCP port the server listens on. Default 38281.",
+    "Category": "Archipelago Settings",
+    "Subcategory": "Network",
+    "KeyName": "$ApplicationPort1",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "ParamFieldName": "$ApplicationPort1",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "38281",
+    "EnumValues": {}
+  }
+]
