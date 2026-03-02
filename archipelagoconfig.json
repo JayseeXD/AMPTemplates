@@ -1,7 +1,7 @@
 [
   {
     "DisplayName": "Archipelago File",
-    "Description": "Filename of the .archipelago multiworld file to load. Upload the file via File Manager first, then enter its name here (e.g. MyGame.archipelago).",
+    "Description": "Filename of the .archipelago multiworld file to load (e.g. MyGame.archipelago). Upload the file via File Manager first.",
     "Category": "Archipelago Settings",
     "Subcategory": "General",
     "KeyName": "ArchipelagoFile",
@@ -11,79 +11,5 @@
     "IncludeInCommandLine": true,
     "DefaultValue": "",
     "EnumValues": {}
-  },
-  {
-    "DisplayName": "Player Password",
-    "Description": "Optional password players must enter to connect. Leave blank for no password.",
-    "Category": "Archipelago Settings",
-    "Subcategory": "Security",
-    "KeyName": "PasswordArg",
-    "InputType": "password",
-    "IsFlagArgument": false,
-    "ParamFieldName": "PasswordArg",
-    "IncludeInCommandLine": true,
-    "DefaultValue": "",
-    "Prefix": " --password ",
-    "EnumValues": {}
-  },
-  {
-    "DisplayName": "Admin Password",
-    "Description": "Optional server admin password. Grants access to admin commands via !admin <password>.",
-    "Category": "Archipelago Settings",
-    "Subcategory": "Security",
-    "KeyName": "ServerPasswordArg",
-    "InputType": "password",
-    "IsFlagArgument": false,
-    "ParamFieldName": "ServerPasswordArg",
-    "IncludeInCommandLine": true,
-    "DefaultValue": "",
-    "Prefix": " --server_password ",
-    "EnumValues": {}
-  },
-  {
-    "DisplayName": "Hint Cost (%)",
-    "Description": "Percentage of total location checks a player must complete before they can request hints. Default: 10.",
-    "Category": "Archipelago Settings",
-    "Subcategory": "Gameplay",
-    "KeyName": "HintCostArg",
-    "InputType": "number",
-    "IsFlagArgument": false,
-    "ParamFieldName": "HintCostArg",
-    "IncludeInCommandLine": true,
-    "DefaultValue": "10",
-    "Prefix": " --hint_cost ",
-    "EnumValues": {}
-  },
-  {
-    "DisplayName": "Auto Shutdown (seconds)",
-    "Description": "Automatically shut down the server after this many seconds with no connected players. 0 = disabled.",
-    "Category": "Archipelago Settings",
-    "Subcategory": "Gameplay",
-    "KeyName": "AutoShutdownArg",
-    "InputType": "number",
-    "IsFlagArgument": false,
-    "ParamFieldName": "AutoShutdownArg",
-    "IncludeInCommandLine": true,
-    "DefaultValue": "0",
-    "Prefix": " --auto_shutdown ",
-    "EnumValues": {}
-  },
-  {
-    "DisplayName": "Compatibility Mode",
-    "Description": "Client version compatibility. 2 = Casual/co-op (recommended). 1 = Friendly racing. 0 = Tournament (exact version match).",
-    "Category": "Archipelago Settings",
-    "Subcategory": "Gameplay",
-    "KeyName": "CompatibilityArg",
-    "InputType": "enum",
-    "IsFlagArgument": false,
-    "ParamFieldName": "CompatibilityArg",
-    "IncludeInCommandLine": true,
-    "DefaultValue": "2",
-    "Prefix": " --compatibility ",
-    "EnumValues": {
-      "2": "2 - Casual / Co-op (recommended)",
-      "1": "1 - Friendly Racing",
-      "0": "0 - Tournament (strict)"
-    }
   }
 ]
