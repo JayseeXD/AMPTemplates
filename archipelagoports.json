@@ -1,0 +1,18 @@
+[
+  {
+    "DisplayName": "Game Port",
+    "Description": "TCP port the Archipelago server listens on. Players connect to this port. Default: 38281.",
+    "Category": "Archipelago Settings",
+    "Subcategory": "Network",
+    "KeyName": "$GamePort",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "ParamFieldName": "$GamePort",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "38281",
+    "EnumValues": {},
+    "IsPortField": true,
+    "PortProtocol": "TCP",
+    "PortFriendlyName": "Archipelago Client Port"
+  }
+]
