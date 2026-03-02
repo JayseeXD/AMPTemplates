@@ -1,0 +1,16 @@
+{
+  "id": "b7d3e12a-4f58-4c91-ae70-9d8c2b016543",
+  "origin": "JayseeXD",
+  "url": "https://github.com/JayseeXD/AMPTemplates",
+  "prefix": "Archipelago",
+  "friendly_name": "Archipelago Multiworld Server",
+  "description": "Self-hosted Archipelago multiworld randomizer server",
+  "modules": [
+    {
+      "name": "archipelago",
+      "friendly_name": "Archipelago Multiworld Server",
+      "kvp": "archipelago.kvp",
+      "config": "archipelagoconfig.json"
+    }
+  ]
+}
