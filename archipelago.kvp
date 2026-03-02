@@ -34,7 +34,7 @@ GenericModule.App.WorkingDir=
 GenericModule.App.CommandLineArgs={{ArchipelagoFile}} --port {{$ApplicationPort1}}
 GenericModule.App.UseLinuxIOREDIR=False
 GenericModule.App.SmartExcludeExemptions=["*.archipelago","*.yaml","*.yml","*.json"]
-GenericModule.App.Ports=$ApplicationPort1=38281;TCP;Archipelago Client Port
+GenericModule.App.Ports=+GamePort:38281/TCP
 GenericModule.Console.ReadyRegex=
 GenericModule.Console.AppReadyRegex=
 GenericModule.Console.AuthFailedRegex=
